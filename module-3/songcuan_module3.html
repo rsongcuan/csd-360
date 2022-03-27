@@ -1,0 +1,81 @@
+<!--
+Ryan Songcuan
+3/27/22
+CSD 360: Interactive Dev with JavaScr
+Module 3 Programming Assignment
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 360 Interactive Dev with JavaScr</title>
+    <style>
+        footer {text-align: right;}
+    </style>
+    <script>
+        var cityOne = "Florence, Italy";
+        var cityTwo = "Dublin, Ireland";
+        var cityThree = "Rome, Italy";
+        var cityFour = "Salzburg, Austria";
+    </script>
+</head>
+<body>
+<h1>Study Abroad</h1>
+<p>
+    During the spring of 2015, when completing my first undergraduate degree at Gonzaga University, I had the opportunity
+    to spend 4 months studying abroad in <span id="firstCity">_______________</span>. Classes were held at Gonzaga's
+    own campus Monday through Thursday, giving us 3 day weekends to explore Europe. There were school-sponsored
+    trips and events hosted locally and in other countries, but otherwise we were given the choice to choose where we
+    would like to spend any given weekend. Below are a few unique experiences I had in different places across Europe.
+</p>
+<div id="firstLocation">
+    <ul>
+        <li><span id="secondCity">_______________</span></li>
+    </ul>
+    <p>
+        We visited this location over Easter weekend. We'd heard all about the famous Irish pubs and were excited to tour
+        the Guinness factory. To our surprise, we learned that in Ireland it was illegal to sell alcohol on Good Friday,
+        which of course happened to be the first full day of our weekend trip. We were able to rearrange our plans to
+        travel outside of the city and sight-see some smaller towns, and save our drinking adventures for Saturday. We later
+        learned the prohibition of the sale of alcohol on Good Friday was lifted in 2018.
+    </p>
+</div>
+<div id="secondLocation">
+    <ul>
+        <li><span id="thirdCity">_______________</span></li>
+    </ul>
+    <p>
+        We visited this city as part of a school sponsored trip during our first weekend abroad. Part of this included a
+        tour at Vatican City, and on that Sunday we got to stand in St. Peter's Square to see Pope Francis greet and pray
+        over the crowd. While waiting for the event to start, I got to talking to someone I hadn't met before and we've
+        remained friends since, and we get to tell people we met while waiting to see the Pope.
+    </p>
+</div>
+<div id="thirdLocation">
+    <ul>
+        <li><span id="fourthCity">_______________</span></li>
+    </ul>
+    <p>
+        For this weekend trip, we signed up through a student tourism organization called "Florence for Fun." It was called
+        the Winter Wonderland tour and stopped in a few cities over the weekend that included a lot of beautiful
+        mountainous scenery. In this particular city, we got to go on the Sound of Music tour where we saw some of the
+        original filming locations, and had dinner at Augistiner Brau, where monks have been brewing beer since 1621.
+    </p>
+</div>
+<div id="buttons">
+    <p>
+        <button type="button" onclick="document.getElementById('firstCity').innerHTML = cityOne">First City</button>
+        <br/><br/>
+        <button type="button" onclick="document.getElementById('secondCity').innerHTML = cityTwo">Second City</button>
+        <br/><br/>
+        <button type="button" onclick="document.getElementById('thirdCity').innerHTML = cityThree">Third City</button>
+        <br/><br/>
+        <button type="button" onclick="document.getElementById('fourthCity').innerHTML = cityFour">Fourth City</button>
+        <br/><br/>
+    </p>
+</div>
+<footer>
+    <a href="../index.html">Back to Landing Page</a>
+</footer>
+</body>
+</html>

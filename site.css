@@ -1,0 +1,46 @@
+/*
+Ryan Songcuan
+3/27/2022
+Module 3 Deliverables Assignment
+*/
+
+body {
+    font-family: 'Rubik', Verdana, Arial, sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header {
+    background-color: #1A2238;
+    color: whitesmoke;
+    border: 1px solid #e61c2c;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3, h4 {
+    background-color: #1A2238;
+    color: whitesmoke;
+    border: 1px solid #e61c2c;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a {
+    color: #1A2238;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e61c2c;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
