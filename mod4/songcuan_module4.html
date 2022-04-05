@@ -1,0 +1,68 @@
+<!--
+Ryan Songcuan
+4/3/22
+CSD 360: Interactive Dev with JavaScr
+Module 4 Programming Assignment
+
+Start with the following two lines of JavaScript:
+    var i = 842;
+    document.write(i + i % 3 / 7 - 2 + 7 ** 3);
+Use parentheses to modify the output line to alter the result of 1183.2857142857142 to the following list of outputs.
+341.14285714285717
+1185.4
+842.0011574074074
+113.28571428571433
+343.2
+841.75
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 360 Interactive Dev with JavaScr</title>
+    <style>
+        footer {text-align: right;}
+    </style>
+</head>
+<body>
+    <h2>Modifying Output with Operators</h2>
+    <h3>Starting Code</h3>
+        <script>
+            var i = 842;
+            document.write(i + i % 3 / 7 - 2 + 7 ** 3);
+        </script>
+    <h3>Requested Outputs</h3>
+        <script>
+            var i = 842;
+            document.write((i + i) % 3 / 7 - 2 + 7 ** 3); // 341.14285714285717
+        </script>
+        <br>
+        <script>
+            var i = 842;
+            document.write(i + i % 3 / (7 - 2) + 7 ** 3); // 1185.4
+        </script>
+        <br>
+        <script>
+            var i = 842;
+            document.write(i + i % 3 / (7 - 2 + 7) ** 3); // 842.0011574074074
+        </script>
+        <br>
+        <script>
+            var i = 842;
+            document.write(i + i % 3 / 7 - (2 + 7) ** 3); // 113.28571428571433
+        </script>
+        <br>
+        <script>
+            var i = 842;
+            document.write((i + i) % 3 / (7 - 2) + 7 ** 3); // 343.2
+        </script>
+        <br>
+        <script>
+            var i = 842;
+            document.write(i + i % 3 / ((7 - (2 + 7)) ** 3)); // 841.75
+        </script>
+<footer>
+    <a href="../index.html">Back to Landing Page</a>
+</footer>
+</body>
+</html>
