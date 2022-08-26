@@ -1,0 +1,61 @@
+/*
+Ryan Songcuan
+4/24/2022
+Module 7 Deliverables Assignment
+*/
+
+body {
+    font-family: 'Rubik', Verdana, Arial, sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header {
+    background-color: #1A2238;
+    color: whitesmoke;
+    border: 1px solid #e61c2c;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3, h4 {
+    background-color: #1A2238;
+    color: whitesmoke;
+    border: 1px solid #e61c2c;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a {
+    color: #1A2238;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e61c2c;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+#row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#list {
+    margin: 10px 50px 50px 50px;
+}
+#images {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    row-gap: 50px;
+}

@@ -1,0 +1,32 @@
+/*
+Ryan Songcuan
+5/15/22
+CSD 360: Interactive Dev with JavaScr
+Module 12 Programming Assignment: Redo of Module 10 Assignment
+
+Added element to display text onmouseover and onmouseout for each image
+*/
+
+body {
+    font-family: 'Rubik', Verdana, Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.jersey img{
+    max-height: 500px;
+    width: auto;
+    text-decoration: ;
+}
+
+.jersey a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: right;
+}

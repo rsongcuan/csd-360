@@ -1,0 +1,29 @@
+/*
+Ryan Songcuan
+5/9/22
+CSD 360: Interactive Dev with JavaScr
+Module 10 Programming Assignment
+
+For this assignment, review the attached example that demonstrates altering of an element style in response to a user
+event. Using information you have interest in, create a page with style alterations based on user events such as an
+image change, font style and/or color, and background color.
+*/
+
+body {
+    font-family: 'Rubik', Verdana, Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.jersey img{
+    max-height: 500px;
+    width: auto;
+    text-decoration: ;
+}
+
+footer {
+    text-align: right;
+}

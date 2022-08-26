@@ -1,0 +1,73 @@
+<!--
+Ryan Songcuan
+5/9/22
+CSD 360: Interactive Dev with JavaScr
+Module 10 Programming Assignment
+
+For this assignment, review the attached example that demonstrates altering of an element style in response to a user
+event. Using information you have interest in, create a page with style alterations based on user events such as an
+image change, font style and/or color, and background color.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="songcuan_module10.css"  type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>CSD 360 Interactive Dev with JavaScr</title>
+</head>
+<body>
+    <h1
+            onmouseover="this.style.color='red';"
+            onmouseout="this.style.color='black';"
+    >
+        JavaScript Events
+    </h1>
+    <h3
+            onmouseover="this.style.textDecoration='underline';"
+            onmouseout="this.style.textDecoration='none';"
+    >
+        The teams' home jerseys are displayed below.
+    </h3>
+    <p
+            onmouseover="this.style.fontStyle='italic';"
+            onmouseout="this.style.fontStyle='normal';"
+    >
+        Run your mouse over the images to see the away jerseys.</p>
+    <br>
+    <div class="grid-container">
+        <div class="jersey">
+            <a href=#
+               onmouseover="seahawks.src='ssaway.png';"
+               onmouseout="seahawks.src='sshome.png';"
+            >
+                <img id="seahawks" src="sshome.png">
+            </a>
+        </div>
+        <div class="jersey">
+            <a href=#
+               onmouseover="gonzaga.src='guaway.png';"
+               onmouseout="gonzaga.src='guhome.jpeg';"
+            >
+                <img id="gonzaga" src="guhome.jpeg">
+            </a>
+        </div>
+        <div class="jersey">
+            <a href=#
+               onmouseover="mariners.src='smaway.png';"
+               onmouseout="mariners.src='smhome.png';"
+            >
+                <img id="mariners" src="smhome.png">
+            </a>
+        </div>
+    </div>
+<footer>
+    <a href="../index.html"
+       onmouseover="this.style.fontStyle='italic';"
+       onmouseout="this.style.fontStyle='normal';"
+    >
+        Back to Landing Page
+    </a>
+</footer>
+</body>
+</html>
